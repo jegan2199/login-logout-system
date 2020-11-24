@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    }
+    
+    body
+    {
+    margin:0%;
+    padding:0%;
+    width:100%;
+    height:90vh;
+    background-image:linear-gradient(white,#00BFFF);
+    background-size:100% 125%;
+    }
+    
+    .common
+    {
+    border:2px solid black;
+    border-radius:10px;
+    position:relative;
+    width:380px;
+    height:480px;
+    margin:6% auto;
+    overflow:hidden;
+    background:black;
+    opacity:.5;
+    }
+    
+    
+    .bow
+    {
+    width:220px;
+    margin:35px;
+    position:relative;
+    border-radius:30px;
+    margin-left:80px;
+    }
+    
+    .toggle
+    {
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+    color:white;
+    }
+    
+    #btn
+    {
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background:linear-gradient(to right,#00BFFF,#ffffff);
+    border-radius:30px;
+    transition:.5s;
+    }
+    
+    form
+    {
+    top:100px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+    }
+    
+    
+    .inputfield
+    {
+    top:180px;
+    width:280px;
+    padding:10px;
+    border:0;
+    outline:none;
+    background:transparent;
+    border-bottom:2px solid white;
+    transition:.5s;
+    margin-bottom:40px;
+    color:white;
+    }
+    .inputfield1
+    {
+    top:180px;
+    width:280px;
+    padding:10px;
+    border:0;
+    outline:none;
+    background:transparent;
+    border-bottom:2px solid white;
+    transition:.5s;
+    margin-bottom:30px;
+    color:white;
+    }
+    
+    ::placeholder
+    {
+    color:white;
+    }
+    
+    .btn-btn
+    {
+    width:300px;
+    margin:10px;
+    padding:10px;
+    border:0;
+    display:block;
+    outline:none;
+    background-color:white;
+    margin-top:30px;
+    cursor:pointer;
+    margin-left:-5px;;
+    border-radius:10px;
+    }
+    
+    #login
+    {
+    left:50px;
+    }
+    
+    #register
+    {
+    left:450px;
+    }
+    
+    
